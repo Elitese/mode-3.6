@@ -10,5 +10,88 @@ body {
 }
 
 .btn {
-    color: #f6b93b;
+    background-color: #f6b93b;
 }
+
+/* Navbar */
+
+.start-view {
+    background-image: url(https://i.postimg.cc/Tw537vCB/close-up-shot-of-crystals-3737455.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px black;
+}
+
+.dropdown-toggle {
+    color: white !important;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px black;
+    margin: auto 20px;
+}
+
+.dropdown-item {
+    color: white !important;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px black;
+}
+
+.navbar-dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    background-color: rgba(246, 185, 59,0.7);
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 12px;
+    position: absolute;
+}
+
+.navbar-toggler {
+    border-color: white !important;
+}
+
+/* Title */
+
+.welcome-view {
+    text-align: center;
+    margin: 250px auto 80px auto;
+}
+
+.title {
+    font-family: 'Bellota', cursive;
+    font-size: 45px;
+    padding: 10px 0;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px black;
+    font-style: italic;
+}
+
+.subtitle {
+    font-size: 60px;
+    padding: 20px 0;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px black;
+}
+
+.btn-one {
+    display: inline-block;
+    min-width: 200px;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px 0;
+    color: white !important;
+}
+
