@@ -121,25 +121,25 @@ body {
     text-align: center;
 }
 
-.card-img-top {
+.icon {
     border: 2px solid #f6b93b;
     border-radius: 50%;
     max-width: 90px;
     margin: 0 auto;
 }
 
-.card-img-top:hover {
+.icon:hover {
     border-color: #e58e26;
 }
 
-.card-img-top i {
+.icon i {
     color: #f6b93b;
     font-size: 50px;
     padding: 20px 0;
     text-align: center;
 }
 
-.card-img-top:hover i {
+.icon:hover i {
     color: #e58e26;
 }
 
@@ -151,7 +151,42 @@ body {
     margin: 0 10px;
 }
 
+/* Crystals */
 
+.crystals {
+    background-color: rgba(246, 185, 59,0.4);
+    padding: 100px 0;
+}
+
+.box {
+    max-width: 33%;
+    margin-bottom: 20px;
+}
+.row {
+    margin: 0 150px;
+}
+
+.photo {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.photo img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card-body {
+    text-align: center;
+    background-color: white;
+}
+
+.card-body h1 {
+    font-size: 25px;
+   
+}
 
 
 
