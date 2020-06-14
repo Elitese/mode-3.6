@@ -144,10 +144,6 @@ body {
   font-weight: bold;
 }
 
-.card-text {
-  margin: 0 10px;
-}
-
 /* Crystals */
 .crystals {
   background-color: rgba(246, 185, 59, 0.4);
@@ -155,12 +151,7 @@ body {
 }
 
 .box {
-  max-width: 33%;
-  margin-bottom: 20px;
-}
-
-.row {
-  margin: 0 150px;
+  margin: 10px 0;
 }
 
 .photo {
@@ -182,5 +173,51 @@ body {
 
 .card-body h1 {
   font-size: 25px;
+}
+
+/* Footer */
+.footer {
+  padding: 60px 0;
+}
+
+.footer-info {
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0;
+}
+
+.footer-info i {
+  font-size: 20px;
+  padding: 12px 5px;
+}
+
+.footer-icons {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer-icons li {
+  list-style-type: none;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  font-size: 0;
+  margin: 0 5px;
+}
+
+.footer-icons li i {
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
