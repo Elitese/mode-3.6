@@ -177,13 +177,15 @@ body {
 
 /* Footer */
 .footer {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-info {
   display: -ms-flexbox;
   display: flex;
-  margin-left: 0;
+  -ms-flex-align: start;
+      align-items: flex-start;
 }
 
 .footer-info i {
@@ -194,7 +196,6 @@ body {
 .footer-icons {
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
   padding: 0;
 }
 

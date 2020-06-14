@@ -183,12 +183,13 @@ body {
 /* Footer */
 
 .footer {
-    padding: 60px 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-info {
     display: flex;
-    margin-left: 0;
+    align-items: flex-start;
 }
 
 .footer-info i {
@@ -198,7 +199,6 @@ body {
 
 .footer-icons {
     display: flex;
-    margin: 0 auto;
     padding: 0;
 }
 
