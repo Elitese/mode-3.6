@@ -17,7 +17,7 @@ body {
 /* Navbar */
 
 .start-view {
-    background-image: url(https://i.postimg.cc/Tw537vCB/close-up-shot-of-crystals-3737455.jpg);
+    background-image: url(/images/close-up-shot-of-crystals-3737455.jpg);
     min-height: 0;
     position: relative;
     background-position: center center;
@@ -244,12 +244,23 @@ body {
         flex-direction: column;
     }
     
-    
     .title {
         font-size: 25px;
     }
 
     .subtitle {
         font-size: 35px;
+    }
+
+    .footer {
+        min-height: auto;
+    }
+    .footer-info {
+        justify-content: center;
+    }
+
+    .footer-icons {
+        justify-content: center;
+        position: relative;
     }
 }
