@@ -184,8 +184,17 @@ body {
     background-color: white;
 }
 
-.card-body h1 {
+.card-body a {
+    text-decoration: none;
+}
+
+.card-title {
     font-size: 25px;
+    color: #0a3d62;
+}
+
+.card-title:hover {
+    color: #e58e26;
 }
 
 /* Footer */
