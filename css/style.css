@@ -49,7 +49,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
   padding-top: 12px;
-  position: absolute;
 }
 
 .navbar-toggler {
@@ -228,5 +227,22 @@ body {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
+}
+
+/* Media */
+@media (max-width: 767px) {
+  .row {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .dropdown-menu {
+    margin-left: 100px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .subtitle {
+    font-size: 35px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
