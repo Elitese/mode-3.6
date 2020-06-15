@@ -236,6 +236,11 @@ body {
       justify-content: center;
 }
 
+.footer-icons li:hover i {
+  color: black;
+  background-color: white;
+}
+
 .footer-icons a {
   text-decoration: none;
 }
