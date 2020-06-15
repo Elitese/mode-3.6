@@ -235,6 +235,10 @@ body {
       justify-content: center;
 }
 
+.footer-icons a {
+  text-decoration: none;
+}
+
 /* Media */
 @media (max-width: 767px) {
   .row {
