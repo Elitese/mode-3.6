@@ -15,10 +15,14 @@ body {
 /* Navbar */
 .start-view {
   background-image: url(https://i.postimg.cc/Tw537vCB/close-up-shot-of-crystals-3737455.jpg);
-  height: 100vh;
+  min-height: 0;
   position: relative;
   background-position: center center;
   background-size: cover;
+}
+
+.welcome-view {
+  padding: 100px 0;
 }
 
 .navbar-brand {
