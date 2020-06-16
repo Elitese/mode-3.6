@@ -18,14 +18,10 @@ section {
 .start-view {
     background-image: url(/images/close-up-shot-of-crystals-3737455.jpg);
     position: relative;
+    height: 100vh;
     background-position: center center;
     background-size: cover;
 }
-
-.welcome-view {
-    padding: 100px 0;
-}
-
 
 .navbar-brand {
     color: white !important;
@@ -64,18 +60,21 @@ section {
 }
 
 
-/* Title */
+/* Header */
 
 .welcome-view {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    margin: 250px auto 80px auto;
 }
 
 .title {
     font-family: 'Bellota', cursive;
     font-size: 45px;
-    padding: 10px 0;
-    margin: auto;
+    padding: 0;
+    margin: 0;
     color: white;
     font-weight: bold;
     text-shadow: 3px 3px 8px black;
@@ -85,7 +84,6 @@ section {
 .subtitle {
     font-size: 60px;
     padding: 20px 0;
-    margin: auto;
     color: white;
     font-weight: bold;
     text-shadow: 3px 3px 8px black;
