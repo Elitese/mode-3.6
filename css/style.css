@@ -11,7 +11,6 @@ body {
 /* Navbar */
 .start-view {
   background-image: url(/images/close-up-shot-of-crystals-3737455.jpg);
-  min-height: 0;
   position: relative;
   background-position: center center;
   background-size: cover;
@@ -195,32 +194,39 @@ body {
   padding: 40px 0;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .footer-info {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: start;
-      align-items: flex-start;
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0;
 }
 
 .footer-info i {
-  font-size: 10px;
-  padding-top: 10px;
+  font-size: 18px;
+  margin-right: 5px;
 }
 
 .footer-info h1 {
   font-size: 20px;
-  padding: 10px 2px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-icons {
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  right: 50%;
-  transform: translateX(50%);
   margin: 0;
+  padding: 0;
+}
+
+.row ul {
+  transform: translateX(-25%);
   padding: 0;
 }
 
@@ -259,6 +265,9 @@ body {
   .row {
     -ms-flex-direction: column;
         flex-direction: column;
+  }
+  .welcome-view {
+    margin: auto;
   }
   .title {
     font-size: 25px;
