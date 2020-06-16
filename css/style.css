@@ -8,6 +8,10 @@ body {
   background-attachment: fixed;
 }
 
+section {
+  padding: 100px 0;
+}
+
 /* Navbar */
 .start-view {
   background-image: url(/images/close-up-shot-of-crystals-3737455.jpg);
@@ -98,10 +102,6 @@ body {
 }
 
 /* Properties */
-.properties {
-  margin: 100px auto;
-}
-
 .section-head {
   text-align: center;
   margin-bottom: 50px;
@@ -152,7 +152,6 @@ body {
 /* Crystals */
 .crystals {
   background-color: rgba(246, 185, 59, 0.4);
-  padding: 100px 0;
 }
 
 .box {
