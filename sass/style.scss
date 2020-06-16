@@ -164,7 +164,8 @@ body {
 }
 
 .box {
-    margin: 10px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .photo {
     position: relative;
@@ -178,21 +179,28 @@ body {
     width: 100%;
 }
 
-.card-body {
+.photo-description {
     text-align: center;
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.card-body a {
+.photo-description a {
     text-decoration: none;
 }
 
-.card-title {
-    font-size: 25px;
-    color: #0a3d62;
+.photo-description p {
+    margin: 0 auto;
 }
 
-.card-title:hover {
+.photo-title {
+    font-size: 25px;
+    color: #0a3d62;
+    margin-bottom: 0;
+}
+
+.photo-title:hover {
     color: #e58e26;
 }
 
