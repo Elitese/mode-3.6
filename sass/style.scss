@@ -34,7 +34,7 @@ section {
     color: white;
     font-size: 30px;
     font-family: 'Bellota', cursive;
-    text-shadow: 2px 4px 7px black;
+    text-shadow: 2px 2px 5px black;
     text-decoration: none;
     font-style: italic;
 }
@@ -49,7 +49,7 @@ section {
     display: inline-block;
     padding: 0 10px;
     font-size: 18px;
-    text-shadow: 2px 4px 7px black;
+    text-shadow: 2px 2px 5px black;
 }
 
 .navigation li {
@@ -63,6 +63,7 @@ section {
 
 .navigation li:hover > a {
     color: #fad390;
+    transition: all 0.5s;
 }
 
 .navigation ul ul li {
@@ -80,6 +81,7 @@ section {
 
 .navigation li:hover ul{ 
     display: block;
+    transition: all 0.5s;
 }
 
 .navigation li ul a {
@@ -132,6 +134,7 @@ section {
 
 .btn:hover {
     background-color: #e58e26;
+    transition: all 1s;
 }
 
 /* Properties */
@@ -166,6 +169,7 @@ section {
 
 .icon:hover {
     border-color: #e58e26;
+    transition: all 0.5s;
 }
 
 .icon i {
@@ -177,6 +181,7 @@ section {
 
 .icon:hover i {
     color: #e58e26;
+    transition: all 0.5s;
 }
 
 .card-title{
@@ -229,6 +234,7 @@ section {
 
 .photo-title:hover {
     color: #e58e26;
+    transition: all 0.5s;
 }
 
 /* Footer */
@@ -292,6 +298,8 @@ section {
 .footer-icons li:hover i {
     color: black;
     background-color: white;
+    transition: all 0.5s;
+    border: 1px solid black;
 }
 
 .footer-icons a {
