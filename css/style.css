@@ -104,7 +104,6 @@ section {
 
 .title {
   font-family: 'Bellota', cursive;
-  font-size: 45px;
   padding: 0;
   margin: 0;
   color: white;
@@ -114,7 +113,6 @@ section {
 }
 
 .subtitle {
-  font-size: 60px;
   padding: 20px 0;
   color: white;
   font-weight: bold;
@@ -271,7 +269,7 @@ section {
   padding: 0;
 }
 
-.row ul {
+.footer-inner ul {
   transform: translateX(-25%);
   padding: 0;
 }
@@ -309,31 +307,62 @@ section {
 }
 
 /* Media */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .row {
     -ms-flex-direction: column;
         flex-direction: column;
   }
   .welcome-view {
-    margin: auto;
+    position: relative;
+    display: block;
+    transform: none;
+    left: 0;
+    top: 0;
+    padding-top: 15px;
   }
-  .title {
-    font-size: 25px;
+  .navigation {
+    display: block;
   }
-  .subtitle {
-    font-size: 35px;
+  .navigation ul li {
+    display: block;
   }
-  .footer {
-    min-height: auto;
+  .navigation ul ul {
+    position: static;
+    transform: none;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 5px 0;
+  }
+  .footer > .row ul {
+    transform: none;
   }
   .footer-info {
     -ms-flex-pack: center;
         justify-content: center;
+    padding-bottom: 10px;
   }
   .footer-icons {
     -ms-flex-pack: center;
         justify-content: center;
-    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 45px !important;
+  }
+  .subtitle {
+    font-size: 60px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .title {
+    font-size: 23px !important;
+  }
+  .subtitle {
+    font-size: 30px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
