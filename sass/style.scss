@@ -307,11 +307,14 @@ section {
 /* Media */
 
 @media (max-width: 991px) {
-
+    
     .row {
         flex-direction: column;
     }
-    
+    .start-view {
+        height: auto;
+    }
+
     .welcome-view{
         position: relative;
         display: block;
@@ -321,12 +324,18 @@ section {
         padding-top: 15px;
     }
 
+    .brand a {
+        font-size: 45px;
+    }
     .navigation {
         display: block;
+        text-align: center;
+        padding: 20px 0; 
     }
 
     .navigation ul li {
         display: block;
+        font-size: 20px;
     }
 
     .navigation ul ul {
@@ -350,6 +359,14 @@ section {
    }
 }
 
+
+@media (min-width: 576px) {
+    .container {
+        max-width: none;
+    }
+}
+
+
 @media screen and (min-width: 768px) {
 
     .title {
@@ -359,15 +376,15 @@ section {
     .subtitle {
         font-size: 60px !important;
     }
-  }
+}
 
-  @media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
 
     .title {
-      font-size: 23px !important;
+      font-size: 25px !important;
     }
 
     .subtitle {
-        font-size: 30px !important;
+        font-size: 35px !important;
     }
-  }
+}

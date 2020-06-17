@@ -312,6 +312,9 @@ section {
     -ms-flex-direction: column;
         flex-direction: column;
   }
+  .start-view {
+    height: auto;
+  }
   .welcome-view {
     position: relative;
     display: block;
@@ -320,11 +323,17 @@ section {
     top: 0;
     padding-top: 15px;
   }
+  .brand a {
+    font-size: 45px;
+  }
   .navigation {
     display: block;
+    text-align: center;
+    padding: 20px 0;
   }
   .navigation ul li {
     display: block;
+    font-size: 20px;
   }
   .navigation ul ul {
     position: static;
@@ -348,6 +357,12 @@ section {
   }
 }
 
+@media (min-width: 576px) {
+  .container {
+    max-width: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .title {
     font-size: 45px !important;
@@ -359,10 +374,10 @@ section {
 
 @media screen and (max-width: 375px) {
   .title {
-    font-size: 23px !important;
+    font-size: 25px !important;
   }
   .subtitle {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
