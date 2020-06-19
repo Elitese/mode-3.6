@@ -198,15 +198,12 @@ section {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.photo {
-    position: relative;
-    height: 300px;
-    width: 100%;
-}
 
-.photo img {
+
+.box img {
+    margin-bottom: -8px;
     object-fit: cover;
-    height: 100%;
+    height: 300px;
     width: 100%;
 }
 
