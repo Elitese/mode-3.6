@@ -344,17 +344,15 @@ section {
         left: 50%;
     }
    
-   .footer > .row ul {
+   .footer-inner ul {
        transform: none;
+       justify-content: center;
+       max-width: none;
    }
 
    .footer-info {
        justify-content: center;
        padding-bottom: 10px;
-   }
-
-   .footer-icons {
-       justify-content: center;
    }
 }
 

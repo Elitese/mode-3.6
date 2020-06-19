@@ -338,17 +338,16 @@ section {
     margin: 5px 0;
     left: 50%;
   }
-  .footer > .row ul {
+  .footer-inner ul {
     transform: none;
+    -ms-flex-pack: center;
+        justify-content: center;
+    max-width: none;
   }
   .footer-info {
     -ms-flex-pack: center;
         justify-content: center;
     padding-bottom: 10px;
-  }
-  .footer-icons {
-    -ms-flex-pack: center;
-        justify-content: center;
   }
 }
 
