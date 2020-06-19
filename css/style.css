@@ -186,6 +186,7 @@ section {
 
 .card-title {
   font-weight: bold;
+  font-size: 25px;
 }
 
 /* Crystals */
@@ -337,6 +338,9 @@ section {
     transform: none;
     margin: 5px 0;
     left: 50%;
+  }
+  .card-title {
+    margin: 20px;
   }
   .footer-inner ul {
     transform: none;
