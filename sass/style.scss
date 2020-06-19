@@ -236,8 +236,7 @@ section {
 /* Footer */
 
 .footer {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding:40px 0;
 }
 
 .row {
@@ -269,8 +268,9 @@ section {
 }
 
 .footer-inner ul {
-    transform: translateX(-25%);
-    padding: 0;
+    transform: translateX(-50%);
+    max-width: fit-content;
+    
 }
 
 
