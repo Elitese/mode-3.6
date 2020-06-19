@@ -18,7 +18,7 @@ section {
 .start-view {
     background-image: url(/images/close-up-shot-of-crystals-3737455.jpg);
     position: relative;
-    height: 100vh;
+    height: 800px;
     background-position: center center;
     background-size: cover;
 }
@@ -32,7 +32,7 @@ section {
 
 .brand a {
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Bellota', cursive;
     text-shadow: 2px 2px 5px black;
     text-decoration: none;
@@ -48,7 +48,7 @@ section {
     list-style-type: none;
     display: inline-block;
     padding: 0 10px;
-    font-size: 18px;
+    font-size: 15px;
     text-shadow: 2px 2px 5px black;
 }
 
@@ -70,7 +70,7 @@ section {
     display: block;
 }
 
-.navigation li ul {
+.navigation li ul{
     display: none;
     position: absolute;
     background-color: rgba(246, 185, 59,0.4);
@@ -81,7 +81,7 @@ section {
 
 .navigation li:hover ul{ 
     display: block;
-    transition: all 0.5s;
+    transition: 0.5;
 }
 
 .navigation li ul a {
@@ -238,7 +238,8 @@ section {
 /* Footer */
 
 .footer {
-    padding: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .row {
@@ -306,15 +307,12 @@ section {
 
 /* Media */
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
     
     .row {
         flex-direction: column;
     }
-    .start-view {
-        height: auto;
-    }
-
+    
     .welcome-view{
         position: relative;
         display: block;
@@ -338,13 +336,13 @@ section {
         font-size: 20px;
     }
 
-    .navigation ul ul {
+    .navigation li ul {
         position: static;
         transform: none;
-        max-width: fit-content;
         margin: 5px 0;
+        left: 50%;
     }
-    
+   
    .footer > .row ul {
        transform: none;
    }
@@ -359,15 +357,7 @@ section {
    }
 }
 
-
-@media (min-width: 576px) {
-    .container {
-        max-width: none;
-    }
-}
-
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 991px) {
 
     .title {
       font-size: 45px !important;
