@@ -1,55 +1,55 @@
 /* Global */
 
 body {
-    margin: auto;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: 'Montserrat', sans-serif;
-    color: #0a3d62;
-    background-attachment: fixed;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: 'Montserrat', sans-serif;
+  color: #0a3d62;
+  background-attachment: fixed;
 }
 
 section {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 /* Navbar */
 
 .start-view {
-    background-image: url(/images/close-up-shot-of-crystals-3737455.jpg);
-    position: relative;
-    height: 800px;
-    background-position: center center;
-    background-size: cover;
+  background-image: url(/images/close-up-shot-of-crystals-3737455.jpg);
+  position: relative;
+  height: 800px;
+  background-position: center center;
+  background-size: cover;
 }
 
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .brand a {
-    color: white;
-    font-size: 28px;
-    font-family: 'Bellota', cursive;
-    text-shadow: 2px 2px 5px black;
-    text-decoration: none;
-    font-style: italic;
+  color: white;
+  font-size: 28px;
+  font-family: 'Bellota', cursive;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+  font-style: italic;
 }
 
 .navigation ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0 10px;
-    font-size: 15px;
-    text-shadow: 2px 2px 5px black;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 15px;
+  text-shadow: 2px 2px 5px black;
 }
 
 .navigation li {
